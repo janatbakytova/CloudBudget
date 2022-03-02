@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLOUDBUDGET</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preload" href="fonts/Lato-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Lato-Regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Lato-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <a class="header__logo header-logo">
+                <span class="header-logo__text">CloudBudget</span>
+            </a>
+            <nav class="header__nav header-nav nav">
+                <button class="header__close button" aria-label="open navigation">
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="header-nav__list">
+                    <li class="header-nav__item"><a href="#software"
+                            class="header-nav__link nav__link link">Overview</a></li>
+                    <li class="header-nav__item"><a href="#features"
+                            class="header-nav__link nav__link link">Features</a></li>
+                    <li class="header-nav__item"><a href="#technology"
+                            class="header-nav__link nav__link link">Technology</a></li>
+                    <li class="header-nav__item"><a href="#contacts" class="header-nav__link nav__link link">Contact</a>
+                    </li>
+                    <li class="header-nav__item"><a href="#hero"
+                            class="header-nav__link nav__link link">Sign&nbsp;Up</a></li>
+                    <li class="header-nav__item"><button class="header__button header__button--mobile button btn"
+                            data-path="login">Login</button></li>
+
+                </ul>
+            </nav>
+            <button class="header__button button btn" data-path="login">Login</button>
+            <button class="header__burger button" aria-label="close navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="container hero__container">
+            <h1 class="hero__title">
+                CloudBudget
+            </h1>
+            <p class="hero__text">
+                Cloud budget management for everyone. Only &euro;69.95&nbsp;a Month After a&nbsp;7&nbsp;Day Trial
+                of&nbsp;Up
+                to&nbsp;&euro;4.99
+            </p>
+            <button class="hero__button button btn" data-path="signup">Sign Up</button>
+        </div>
+    </section>
+
+    <main class="main">
+
+        <section class="software" id="software">
+            <div class="container software__container">
+                <div class="software__desc">
+                    <h2 class="software__title section__title">
+                        Easy to&nbsp;Use Cloud Budget Management Software
+                    </h2>
+                    <p class="software__text text">
+                        Our software is&nbsp;made so&nbsp;you can access and manage your budget and expenses online
+                        at&nbsp;any time
+                        from any device. It&nbsp;provides detailed income and expense reports with graphs so&nbsp;you
+                        can easilly
+                        see
+                        your spending patterns and budget at&nbsp;a&nbsp;glance. Read below to&nbsp;find out more.
+                    </p>
+                    <a href="software.html" class="sofrware__link link" target="_blank">
+                        Learn More
+                    </a>
+                </div>
+                <video class="software__video video-js" id="video-1" preload="metadata" controls>
+                    <source src="video/software.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="container features__container">
+                <h2 class="features__title section__title">
+                    Features
+                </h2>
+                <ul class="features__list">
+                    <li class="features__item features-item">
+                        <div class="features-item__desc">
+                            <h3 class="features-item__title title">
+                                Supports All Currencies and Cards
+                            </h3>
+                            <p class="features-item__text">
+                                We&nbsp;support all popular currencies and is&nbsp;fully customizable to&nbsp;add
+                            </p>
+                            <a href="features1.html" class="features-item__link link" target="_blank">Read More</a>
+                        </div>
+                    </li>
+                    <li class="features__item features-item">
+                        <div class="features-item__desc">
+                            <h3 class="features-item__title title">
+                                Manage your expenses on the go
+                            </h3>
+                            <p class="features-item__text">
+                                You can access your account from anywhere in&nbsp;the world on&nbsp;any device
+                            </p>
+                            <a href="features2.html" class="features-item__link link" target="_blank">Read More</a>
+                        </div>
+                    </li>
+                    <li class="features__item features-item">
+                        <div class="features-item__desc">
+                            <h3 class="features-item__title title">
+                                Cloud Budget Management Software
+                            </h3>
+                            <p class="features-item__text">
+                                Our software is&nbsp;made so&nbsp;you can access and manage your budget
+                            </p>
+                            <a href="software.html" class="features-item__link link" target="_blank">Read More</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="technology" id="technology">
+            <div class="container technology__container">
+                <h2 class="technology__title section__title">
+                    Technology
+                </h2>
+                <ul class="technology__list">
+                    <li class="technology__item technology-item">
+                        <h3 class="technology-item__title title">
+                            Cloud Storage
+                        </h3>
+                        <p class="technology-item__text">
+                            Access your account from anywhere in&nbsp;the world on&nbsp;any device
+                        </p>
+                    </li>
+                    <li class="technology__item technology-item">
+                        <h3 class="technology-item__title title">
+                            Secure
+                        </h3>
+                        <p class="technology-item__text">
+                            All your information is&nbsp;stored on&nbsp;secure cloud servers
+                        </p>
+                    </li>
+                    <li class="technology__item technology-item">
+                        <h3 class="technology-item__title title">
+                            PDF Download
+                        </h3>
+                        <p class="technology-item__text">
+                            Download any of&nbsp;your reports in&nbsp;PDF format
+                        </p>
+                    </li>
+                    <li class="technology__item technology-item">
+                        <h3 class="technology-item__title title">
+                            CSV Download
+                        </h3>
+                        <p class="technology-item__text">
+                            All your information is&nbsp;stored on&nbsp;secure cloud servers
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="app">
+            <div class="container app__container">
+                <div class="app__desc">
+                    <h2 class="app__title section__title">
+                        Stay focused on saving money
+                    </h2>
+                    <p class="app__text text">
+                        It&nbsp;is&nbsp;important to&nbsp;stay focused on&nbsp;saving money in&nbsp;any way you can.
+                        We&nbsp;help
+                        you
+                        monitor your spending habits so&nbsp;you can easily spot and cut any unnecessary expenses.
+                        Simply join today
+                        to&nbsp;get started!
+                    </p>
+                    <ul class="app__icons">
+                        <li class="app__item">
+                            <a href="#" class="app__icon app__icon--google" aria-label="download app in google play"
+                                target="_blank">
+                                <svg>
+                                    <use xlink:href="img/sprite.svg#google"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="app__item">
+                            <a href="#" class="app__icon app__icon--appstore" aria-label="download app in app store"
+                                target="_blank">
+                                <svg>
+                                    <use xlink:href="img/sprite.svg#appstore"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="app__item">
+                            <a href="#" class="app__icon app__icon--windows" aria-label="download app in windows shop"
+                                target="_blank">
+                                <svg>
+                                    <use xlink:href="img/sprite.svg#windows"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="contacts" id="contacts">
+            <div class="container contacts__container">
+                <div class="contacts__desc">
+                    <h2 class="contacts__title section__title">
+                        Contact
+                    </h2>
+                    <p class="contacts__text text">
+                        Questions or&nbsp;concerns? Just fill out the form below and our support team will get back
+                        to&nbsp;you
+                        within
+                        24&nbsp;hours
+                    </p>
+                </div>
+                <form action="mail.php" class="contacts__form form" method="POST">
+                    <input type="hidden" name="admin_email[]">
+                    <input type="hidden" name="form_subject" value="Тема письма">
+                    <div class="form__name">
+                        <div class="form__firstname">
+                            <input class="form__input form__input--fn" placeholder="First Name" type="text"
+                                name="first-name" data-validate-field="name">
+                        </div>
+                        <input class="form__input form__input--ln" placeholder="Last Name" type="text" name="last-name">
+                    </div>
+                    <input class="form__input form__input--ph" placeholder="Phone Number" type="tel" name="tel"
+                        data-validate-field="tel" autocomplete="tel">
+                    <select class="form__select" name="select">
+                        <option hidden>Select Service</option>
+                        <option>Service 1</option>
+                        <option>Service 2</option>
+                        <option>Service 3</option>
+                    </select>
+                    <button class="form__button button" type="submit">Submit now</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <ul class="footer__list footer-list">
+                <li class="footer-list__item footer__address footer-address">
+                    <h3 class="footer-address__title title">
+                        Address
+                    </h3>
+                    <div class="footer-address__text">
+                        Pipang&nbsp;Ltd,&nbsp;Griva&nbsp;Digeni,<br>
+                        81&nbsp;-&nbsp;83&nbsp;Jacovides&nbsp;Tower,&nbsp;1st&nbsp;Floor<br>
+                        1090&nbsp;Picosia&nbsp;USA<br>
+                    </div>
+                </li>
+                <li class="footer-list__item footer__services footer-services">
+                    <h3 class="footer-services__title title">
+                        Services
+                    </h3>
+                    <nav class="footer-services__nav nav">
+                        <ul class="footer-services__list">
+                            <li class="footer-services__item"><a href="#software"
+                                    class="footer-services__link nav__link link">Overview</a></li>
+                            <li class="footer-services__item"><a href="#features"
+                                    class="footer-services__link nav__link link">Features</a></li>
+                            <li class="footer-services__item"><a href="#technology"
+                                    class="footer-services__link nav__link link">Technology</a></li>
+                            <li class="footer-services__item"><a href="files/Terms&Conditions.pdf"
+                                    class="footer-services__link link"
+                                    target="_blank">Terms&nbsp;&amp;&nbsp;Conditions</a>
+                            </li>
+                            <li class="footer-services__item"><a href="files/Privacy.pdf"
+                                    class="footer-services__link link" target="_blank">Privacy</a></li>
+                        </ul>
+                    </nav>
+                </li>
+                <li class="footer-list__item footer__contacts footer-contacts">
+                    <h3 class="footer-contacts__title title">
+                        Get in Touch
+                    </h3>
+                    <ul class="footer-contacts__list">
+                        <li class="footer-contacts__item">
+                            <a class="footer-contacts__link link"
+                                href="mailto:info@cloudbudget.com">info@cloudbudget.com</a>
+                        </li>
+                        <li class="footer-contacts__item">
+                            <a class="footer-contacts__link link" href="tel:+18447217120">+1 844-721-7120</a>
+                        </li>
+                        <li class="footer-contacts__item">
+                            <ul class="footer-contacts__socials footer-socials">
+                                <li class="footer-socials__item">
+                                    <a href="#" class="footer-socials__icon footer-socials__icon--fb"
+                                        aria-label="go to our community in facebook" target="_blank">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#facebook"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="footer-socials__item">
+                                    <a href="#" class="footer-socials__icon footer-socials__icon--li"
+                                        aria-label="go to our page in linkedin" target="_blank">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#linkedin"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="footer-socials__item">
+                                    <a href="#" class="footer-socials__icon footer-socials__icon--tw"
+                                        aria-label="go to our page in twitter" target="_blank">
+                                        <svg>
+                                            <use xlink:href="img/sprite.svg#twitter"></use>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="footer-list__item footer__payment footer-payment">
+                    <h3 class="footer-payment__title title">
+                        We Support
+                    </h3>
+                    <div class="footer-payment__cards">
+                        <img class="footer-payment__img" src="img/cards.png" alt="Payment systems we support">
+                    </div>
+                </li>
+            </ul>
+            <p class="footer__copyright">
+                Copyright 2018 CloudBudget
+            </p>
+        </div>
+    </footer>
+
+    <div class="modals">
+        <div class="modal-overlay">
+            <div class="modal modal--login" data-target="login">
+                <form action="mail.php" class="modal__form modal__form--login" method="POST">
+                    <input type="hidden" name="admin_email[]">
+                    <input type="hidden" name="form_subject" value="Тема письма">
+                    <h3 class="modal__title title">Login</h3>
+                    <div>
+                        <input type="email" class="modal__input form__input" name="email" placeholder="E-mail"
+                            data-validate-field="email">
+                    </div>
+                    <div>
+                        <input type="password" class="modal__input form__input" placeholder="Password"
+                            data-validate-field="password">
+                    </div>
+
+                    <button class="modal__button form__button" type="submit">Login</button>
+                </form>
+            </div>
+
+            <div class="modal modal--signup" data-target="signup">
+                <form action="mail.php" class="modal__form modal__form--signup" method="POST">
+                    <input type="hidden" name="admin_email[]">
+                    <input type="hidden" name="form_subject" value="Тема письма">
+                    <h3 class="modal__title title">Sigh Up</h3>
+                    <div>
+                        <input type="text" class="modal__input form__input" placeholder="First Name" name="first-name"
+                            data-validate-field="name">
+                    </div>
+                    <div>
+                        <input type="text" class="modal__input form__input" placeholder="Last Name" name="last-name">
+                    </div>
+                    <div>
+                        <input type="email" class="modal__input form__input" name="email" placeholder="E-mail"
+                            data-validate-field="email">
+                    </div>
+                    <div>
+                        <input type="password" class="modal__input form__input" placeholder="Create Password"
+                            data-validate-field="password">
+                    </div>
+                    <button class="modal__button form__button" type="submit">Sign Up</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="thanks">
+        <div class="thanks-popup__overlay">
+            <div class="thanks-popup">
+                <p class="thanks-popup__text">Thank you for choosing us!</p>
+                <p class="thanks-popup__text">Our support team will get back to you within 24 hours</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
